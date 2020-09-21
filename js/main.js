@@ -54,32 +54,32 @@ $(document).ready(function () {
     var imgUrls = JSON.parse(sessionStorage.getItem("imgUrls"));
     var index = sessionStorage.getItem("index");
     var $panel = $('#panel');
-    if (imgUrls == null) {
+    if(imgUrls == null){
         imgUrls = new Array();
         index = 0;
-        $.get(url, function (result) {
+        $.get(url,function (result) {
             images = result.images;
             for (let i = 0; i < images.length; i++) {
                 const item = images[i];
                 imgUrls.push(item.url);
             }
             var imgUrl = imgUrls[index];
-            var url = "https://www.bing.com" + imgUrl;
-            $panel.css("background", "url('" + url + "') center center no-repeat #666");
+            var url = "https://www.bing.com"+imgUrl;
+            $panel.css("background", "url('"+url+"') center center no-repeat #666");
             $panel.css("background-size", "cover");
-            sessionStorage.setItem("imgUrls", JSON.stringify(imgUrls));
-            sessionStorage.setItem("index", index);
+            sessionStorage.setItem("imgUrls",JSON.stringify(imgUrls));
+            sessionStorage.setItem("index",index);
         });
-    } else {
-        if (index == 7)
+    }else{
+        if(index == 7)
             index = 0;
         else
             index++;
         var imgUrl = imgUrls[index];
-        var url = "https://www.bing.com" + imgUrl;
-        $panel.css("background", "url('" + url + "') center center no-repeat #666");
+        var url = "https://www.bing.com"+imgUrl;
+        $panel.css("background", "url('"+url+"') center center no-repeat #666");
         $panel.css("background-size", "cover");
-        sessionStorage.setItem("index", index);
+        sessionStorage.setItem("index",index);
     }
 
     $(".iUp").each(function (i, e) {
@@ -91,9 +91,9 @@ $(document).ready(function () {
     }
 });
 
-$('.btn-mobile-menu__icon').click(function () {
+$('.btn-mobile-menu__icon').click(function() {
     if ($('.navigation-wrapper').css('display') == "block") {
-        $('.navigation-wrapper').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $('.navigation-wrapper').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
             $('.navigation-wrapper').toggleClass('visible animated bounceOutUp');
             $('.navigation-wrapper').off('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
         });
