@@ -1,44 +1,44 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html" xmlns:https="http://www.w3.org/1999/xhtml"
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html"
       lang="zh-CN">
 
-<head id="panel" class="panel-cover" style="background: url('https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg') center center / cover no-repeat rgb(102, 102, 102);">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-<meta name="description" content="">
-<meta name="author" content="Kayleh">
-<link rel="icon" href="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="Kayleh">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg">
 
-<!--&lt;!&ndash;    适配手机&ndash;&gt;-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--&lt;!&ndash;    适配手机&ndash;&gt;-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Kayleh</title>
+    <title>Kayleh</title>
 
-<link rel="stylesheet" type="text/css" href="/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="/css/vno.css">
 
-<!-- Bootstrap core CSS -->
-<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<link href="/css/head/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/css/head/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-<!-- Custom styles for this template -->
-<link href="/css/head/cover.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/css/head/cover.css" rel="stylesheet">
 
-<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-<!--[if lt IE 9]>
-<script src="/js/ie8-responsive-file-warning.js"></script><![endif]-->
-<script src="/js/head/ie-emulation-modes-warning.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/js/head/ie-emulation-modes-warning.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<!-- font-awesome -->
-<link rel="stylesheet" href="/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 
 <!--<body style="background-image:url(https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg) ">-->
@@ -46,11 +46,12 @@
 <!--<body  style="background: url("https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg") center center / cover no-repeat rgb(102, 102, 102);-->
 <!--">-->
 <body style="background-color: #333">
-<div class="site-wrapper">
+<!--<div class="site-wrapper">-->
+<header id="panel" class="panel-cover"
+        style="background: url('https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg') center center / cover no-repeat rgb(102, 102, 102);">
+    <div class="panel-main">
 
-    <div class="site-wrapper-inner">
-
-        <div class="cover-container">
+        <div class="panel-main__inner panel-inverted">
 
             <!--                <div class="masthead clearfix">-->
             <!--                    <div class="inner">-->
@@ -70,29 +71,62 @@
 
             <div class="inner cover">
                 <!--				头像-->
-                <div class="media">
-                    <a href="/">
-                        <img class="img-circle" src="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg" width="120"
-                             height="120">
+                <div class="ih-item circle effect right_to_left">
+                    <a href="#" title="" class="blog-button">
+                        <div class="img"><img src="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg" alt="img"
+                                              class="js-avatar iUp profilepic up"></div>
+                        <div class="info iUp up">
+                            <div class="info-back">
+                                <h2>
+                                    Kayleh
+                                </h2>
+                                <!--                                    <p>-->
+                                <!--                                        每天进步多一点-->
+                                <!--                                    </p>-->
+                            </div>
+                        </div>
                     </a>
 
-                    <div class="media-body">
-                        <!--						<p></p>-->
-                        <!--						<h4 class="media-heading">Webmaster</h4>-->
-                        <h1 class="cover-heading">Kayleh</h1>
-                    </div>
+                    <!--                        <a href="/">-->
+                    <!--                            <img class="img-circle" src="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg" width="120"-->
+                    <!--                                 height="120">-->
+                    <!--                        </a>-->
+
+                    <h1 class="panel-cover__title panel-title iUp up">
+                        <a href="#" title="Home">Kayleh</a>
+                    </h1>
+
+                    <!--                        -->
+                    <!--                        <div class="media-body">-->
+                    <!--                            &lt;!&ndash;						<p></p>&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;						<h4 class="media-heading">Webmaster</h4>&ndash;&gt;-->
+                    <!--                            <h1 class="cover-heading">Kayleh</h1>-->
+                    <!--                        </div>-->
                 </div>
 
                 <!--                    <p class="lead">A Developer</p>-->
-                <p class="lead" style="display: inline-grid;">
+
+                <!--                    <p class="lead" style="display: inline-grid;">-->
+                <div class="navigation-wrapper iUp up" style="display: inline-grid;">
                     <!--                        <a href="/" class="btn btn-lg btn-default">Home</a>-->
-                    <a style="margin-bottom: 10px" href="https://shell.kayleh.top" class="btn btn-lg btn-default">ENTER
-                        Terminal</a>
-                    <a style="margin-bottom: 10px" href="https://kayleh.top" class="btn btn-lg btn-default">ENTER
-                        Blog</a>
-                    <a style="margin-bottom: 10px" href="https://kayleh.top/contract/" class="btn btn-lg btn-default">Contact
-                        me</a>
-                </p>
+                    <ul class="navigation">
+                        <li class="navigation__item">
+                            <a style="margin-bottom: 10px" href="https://shell.kayleh.top"
+                               class="btn btn-lg btn-default">ENTER
+                                Terminal</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a style="margin-bottom: 10px" href="https://kayleh.top" class="btn btn-lg btn-default">ENTER
+                                Blog</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a style="margin-bottom: 10px" href="https://kayleh.top/contract/"
+                               class="btn btn-lg btn-default">Contact
+                                me</a>
+                        </li>
+                    </ul>
+                </div>
+
                 <p class="lead">Links:</p>
                 <!--社交图标-->
                 <div style="display: inline-flex;">
@@ -203,21 +237,21 @@
                             <!--					<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
+    </div>
+</header>
+<!--</div>-->
 
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
 </html>

@@ -32,6 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600692732152</updated>
       <workItem from="1600692733450" duration="5442000" />
-      <workItem from="1600698249740" duration="363000" />
+      <workItem from="1600698249740" duration="1321000" />
     </task>
     <servers />
   </component>
