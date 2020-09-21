@@ -35,9 +35,8 @@
     <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 
-
-
-<body style="background-color: #333">
+<body style="background-image:url(https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg)" >
+<!--<body style="background-color: #333">-->
     <div class="site-wrapper">
 
         <div class="site-wrapper-inner">
@@ -46,13 +45,15 @@
 
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <h3 class="masthead-brand">Kayleh</h3>
+                        <h3 class="masthead-brand">
+                            <a href="/">Kayleh</a>
+                        </h3>
                         <nav>
                             <ul class="nav masthead-nav">
-                                <li class="active"><a href="#">Home</a></li>
+                                <li class="active"><a href="/">Home</a></li>
                                 <li><a href="https://kayleh.top">BLOG</a></li>
                                 <li><a href="https://shell.kayleh.top">Terminal</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="https://kayleh.top/contract/">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -61,8 +62,7 @@
                 <div class="inner cover">
                     <!--				头像-->
                     <div class="media">
-
-                        <a href="#">
+                        <a href="/">
                             <img class="img-circle" src="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg" width="120"
                                 height="120">
                         </a>
@@ -70,17 +70,20 @@
                         <div class="media-body">
                             <!--						<p></p>-->
                             <!--						<h4 class="media-heading">Webmaster</h4>-->
-                            <h2 class="cover-heading">Webmaster</h2>
-
+                            <h1 class="cover-heading">Webmaster</h1>
                         </div>
                     </div>
 
-                    <p class="lead">A Developer</p>
+<!--                    <p class="lead">A Developer</p>-->
                     <p class="lead">
-                        <a href="/home" class="btn btn-lg btn-default">ENTER COMMUNITY</a>
+<!--                        <a href="/" class="btn btn-lg btn-default">Home</a>-->
+                        <a href="https://shell.kayleh.top" class="btn btn-lg btn-default">ENTER Terminal</a>
+                        <a href="https://kayleh.top" class="btn btn-lg btn-default">ENTER Blog</a>
+                        <a href="https://kayleh.top/contract/" class="btn btn-lg btn-default">Contact me</a>
                     </p>
-
-                    <div style="    display: inline-flex;">
+                    <p class="lead">Links:</p>
+                    <!--社交图标-->
+                    <div style="display: inline-flex;">
                         <div>
                             <a title="facebook" class="navbar-brand" style="padding-top: 10px;"
                                 href="https://www.facebook.com/kayleh.yao.7">
@@ -122,7 +125,7 @@
                         <div>
                             <a th:title="linkedin" class="navbar-brand" style="padding-top: 10px;"
                                href="https://www.linkedin.com/in/jinqing-yao-97a750186/">
-                                <i class="fa fa-stack-linkedin" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
                             </a>
                         </div>
@@ -146,7 +149,7 @@
                         <div>
                             <a th:title="zhihu" class="navbar-brand" style="padding-top: 10px;"
                                href="https://www.zhihu.com/people/ni-hui-gan-xie-wo-de">
-                                <i class="fa fa-zhihu" aria-hidden="true"></i>
+                                <i class="fab fa-zhihu" aria-hidden="true"></i>
                                 <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
                             </a>
                         </div>
@@ -182,7 +185,9 @@
 
                 <div class="mastfoot">
                     <div class="inner">
-                        <div>CopyRight ©2020 · Kayleh · Terminal:aliyun Cloud · PROGRAMING:Spring Boot · 备案ICP000000号
+                        <div>CopyRight ©2019 · Kayleh
+<!--                            · Terminal:aliyun Cloud · PROGRAMING:Spring Boot -->
+                            · 备案ICP000000号
                         </div>
                         <!--					<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
                     </div>
