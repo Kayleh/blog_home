@@ -10,6 +10,9 @@
     <meta name="author" content="Kayleh">
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg">
 
+    <!--&lt;!&ndash;    适配手机&ndash;&gt;-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Kayleh</title>
 
     <!-- Bootstrap core CSS -->
@@ -35,178 +38,180 @@
     <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 
-<body style="background-image:url(https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg)" >
+<body style="background-image:url(https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg)">
 <!--<body style="background-color: #333">-->
-    <div class="site-wrapper">
+<div class="site-wrapper">
 
-        <div class="site-wrapper-inner">
+    <div class="site-wrapper-inner">
 
-            <div class="cover-container">
+        <div class="cover-container">
 
-<!--                <div class="masthead clearfix">-->
-<!--                    <div class="inner">-->
-<!--                        <h3 class="masthead-brand">-->
-<!--                            <a href="/">Kayleh</a>-->
-<!--                        </h3>-->
-<!--                        <nav>-->
-<!--                            <ul class="nav masthead-nav">-->
-<!--                                <li class="active"><a href="/">Home</a></li>-->
-<!--                                <li><a href="https://kayleh.top">BLOG</a></li>-->
-<!--                                <li><a href="https://shell.kayleh.top">Terminal</a></li>-->
-<!--                                <li><a href="https://kayleh.top/contract/">Contact</a></li>-->
-<!--                            </ul>-->
-<!--                        </nav>-->
-<!--                    </div>-->
-<!--                </div>-->
+            <!--                <div class="masthead clearfix">-->
+            <!--                    <div class="inner">-->
+            <!--                        <h3 class="masthead-brand">-->
+            <!--                            <a href="/">Kayleh</a>-->
+            <!--                        </h3>-->
+            <!--                        <nav>-->
+            <!--                            <ul class="nav masthead-nav">-->
+            <!--                                <li class="active"><a href="/">Home</a></li>-->
+            <!--                                <li><a href="https://kayleh.top">BLOG</a></li>-->
+            <!--                                <li><a href="https://shell.kayleh.top">Terminal</a></li>-->
+            <!--                                <li><a href="https://kayleh.top/contract/">Contact</a></li>-->
+            <!--                            </ul>-->
+            <!--                        </nav>-->
+            <!--                    </div>-->
+            <!--                </div>-->
 
-                <div class="inner cover">
-                    <!--				头像-->
-                    <div class="media">
-                        <a href="/">
-                            <img class="img-circle" src="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg" width="120"
-                                height="120">
+            <div class="inner cover">
+                <!--				头像-->
+                <div class="media">
+                    <a href="/">
+                        <img class="img-circle" src="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg" width="120"
+                             height="120">
+                    </a>
+
+                    <div class="media-body">
+                        <!--						<p></p>-->
+                        <!--						<h4 class="media-heading">Webmaster</h4>-->
+                        <h1 class="cover-heading">Kayleh</h1>
+                    </div>
+                </div>
+
+                <!--                    <p class="lead">A Developer</p>-->
+                <p class="lead" style="display: inline-grid;">
+                    <!--                        <a href="/" class="btn btn-lg btn-default">Home</a>-->
+                    <a style="margin-bottom: 10px" href="https://shell.kayleh.top" class="btn btn-lg btn-default">ENTER
+                        Terminal</a>
+                    <a style="margin-bottom: 10px" href="https://kayleh.top" class="btn btn-lg btn-default">ENTER
+                        Blog</a>
+                    <a style="margin-bottom: 10px" href="https://kayleh.top/contract/" class="btn btn-lg btn-default">Contact
+                        me</a>
+                </p>
+                <p class="lead">Links:</p>
+                <!--社交图标-->
+                <div style="display: inline-flex;">
+                    <div>
+                        <a title="facebook" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://www.facebook.com/kayleh.yao.7">
+                            <!--                                <img alt="Brand" src="/images/img/facebook.png" width="30px" height="30px">-->
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
+                    </div>
+                    <div>
+                        <a th:title="Twitter" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://twitter.com/y40jinqing">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <!--                                <img alt="Brand" src="/images/img/twitter.png" width="30px" height="30px">-->
+                        </a>
+                    </div>
+                    <div>
+                        <a th:title="GitHub" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://github.com/Kayleh">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
 
-                        <div class="media-body">
-                            <!--						<p></p>-->
-                            <!--						<h4 class="media-heading">Webmaster</h4>-->
-                            <h1 class="cover-heading">Kayleh</h1>
+                    <div>
+                        <a th:title="Google" class="navbar-brand" style="padding-top: 10px;"
+                           href="mailto:kaylehisdied@gmail.com">
+                            <i class="fa fa-google" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="stackoverflow" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://stackoverflow.com/users/14150803/kayleh">
+                            <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="linkedin" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://www.linkedin.com/in/jinqing-yao-97a750186/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="instagram" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://instagram.com/kayleh">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="weibo" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://weibo.com/5737136689/profile?rightmod=1&wvr=6&mod=personinfo">
+                            <i class="fa fa-weibo" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <!--                        <div>-->
+                    <!--                            <a th:title="zhihu" class="navbar-brand" style="padding-top: 10px;"-->
+                    <!--                               href="https://www.zhihu.com/people/ni-hui-gan-xie-wo-de">-->
+                    <!--                                <i class="fab fa-zhihu" aria-hidden="true"></i>-->
+                    <!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
+                    <!--                            </a>-->
+                    <!--                        </div>-->
+
+                    <div>
+                        <a th:title="youtube" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://www.youtube.com/channel/UC60fbKqc9kjOom-o76OID_A?view_as=subscriber">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <!--                        <div>-->
+                    <!--                            <a th:title="" class="navbar-brand" style="padding-top: 10px;"-->
+                    <!--                               href=" ">-->
+                    <!--                                <i class="fa fa- " aria-hidden="true"></i>-->
+                    <!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
+                    <!--                            </a>-->
+                    <!--                        </div>-->
+
+                    <!--                        <div>-->
+                    <!--                            <a th:title="" class="navbar-brand" style="padding-top: 10px;"-->
+                    <!--                               href=" ">-->
+                    <!--                                <i class="fa fa-" aria-hidden="true"></i>-->
+                    <!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
+                    <!--                            </a>-->
+                    <!--                        </div>-->
+                    <!--                        -->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+
+
+                    <div class="mastfoot">
+                        <div class="inner">
+                            <div>CopyRight ©2019 · Kayleh
+                                <!--                            · Terminal:aliyun Cloud · PROGRAMING:Spring Boot -->
+                                · 备案ICP000000号
+                            </div>
+                            <!--					<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
                         </div>
                     </div>
 
-<!--                    <p class="lead">A Developer</p>-->
-                    <p class="lead" style="display: inline-grid;">
-<!--                        <a href="/" class="btn btn-lg btn-default">Home</a>-->
-                        <a style="margin-bottom: 10px" href="https://shell.kayleh.top" class="btn btn-lg btn-default">ENTER Terminal</a>
-                        <a style="margin-bottom: 10px" href="https://kayleh.top" class="btn btn-lg btn-default">ENTER Blog</a>
-                        <a style="margin-bottom: 10px" href="https://kayleh.top/contract/" class="btn btn-lg btn-default">Contact me</a>
-                    </p>
-                    <p class="lead">Links:</p>
-                    <!--社交图标-->
-                    <div style="display: inline-flex;">
-                        <div>
-                            <a title="facebook" class="navbar-brand" style="padding-top: 10px;"
-                                href="https://www.facebook.com/kayleh.yao.7">
-<!--                                <img alt="Brand" src="/images/img/facebook.png" width="30px" height="30px">-->
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div>
-                            <a th:title="Twitter" class="navbar-brand" style="padding-top: 10px;"
-                                href="https://twitter.com/y40jinqing">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-<!--                                <img alt="Brand" src="/images/img/twitter.png" width="30px" height="30px">-->
-                            </a>
-                        </div>
-                        <div>
-                            <a th:title="GitHub" class="navbar-brand" style="padding-top: 10px;"
-                                href="https://github.com/Kayleh">
-                                <i class="fa fa-github" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-                        <div>
-                            <a th:title="Google" class="navbar-brand" style="padding-top: 10px;"
-                               href="mailto:kaylehisdied@gmail.com">
-                                <i class="fa fa-google" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-                        <div>
-                            <a th:title="stackoverflow" class="navbar-brand" style="padding-top: 10px;"
-                               href="https://stackoverflow.com/users/14150803/kayleh">
-                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-                        <div>
-                            <a th:title="linkedin" class="navbar-brand" style="padding-top: 10px;"
-                               href="https://www.linkedin.com/in/jinqing-yao-97a750186/">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-                        <div>
-                            <a th:title="instagram" class="navbar-brand" style="padding-top: 10px;"
-                               href="https://instagram.com/kayleh">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-                        <div>
-                            <a th:title="weibo" class="navbar-brand" style="padding-top: 10px;"
-                               href="https://weibo.com/5737136689/profile?rightmod=1&wvr=6&mod=personinfo">
-                                <i class="fa fa-weibo" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-                        <div>
-                            <a th:title="zhihu" class="navbar-brand" style="padding-top: 10px;"
-                               href="https://www.zhihu.com/people/ni-hui-gan-xie-wo-de">
-                                <i class="fab fa-zhihu" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-                        <div>
-                            <a th:title="youtube" class="navbar-brand" style="padding-top: 10px;"
-                               href="https://www.youtube.com/channel/UC60fbKqc9kjOom-o76OID_A?view_as=subscriber">
-                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                                <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
-                            </a>
-                        </div>
-
-<!--                        <div>-->
-<!--                            <a th:title="" class="navbar-brand" style="padding-top: 10px;"-->
-<!--                               href=" ">-->
-<!--                                <i class="fa fa- " aria-hidden="true"></i>-->
-<!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
-<!--                            </a>-->
-<!--                        </div>-->
-
-<!--                        <div>-->
-<!--                            <a th:title="" class="navbar-brand" style="padding-top: 10px;"-->
-<!--                               href=" ">-->
-<!--                                <i class="fa fa-" aria-hidden="true"></i>-->
-<!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
-<!--                            </a>-->
-<!--                        </div>-->
-<!--                        -->
-<!--                    </div>-->
-<!--                </div>-->
-
-
-
-                <div class="mastfoot">
-                    <div class="inner">
-                        <div>CopyRight ©2019 · Kayleh
-<!--                            · Terminal:aliyun Cloud · PROGRAMING:Spring Boot -->
-                            · 备案ICP000000号
-                        </div>
-                        <!--					<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
-                    </div>
                 </div>
 
             </div>
 
         </div>
 
-    </div>
-
-    <!-- Bootstrap core JavaScript
-================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
 </html>
