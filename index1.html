@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html" lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="Kayleh">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg">
+
+    <!--&lt;!&ndash;    适配手机&ndash;&gt;-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+    <title>Home:Kayleh</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="/css/iconfont.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.webfont.youziku.com/webfonts/nomal/123918/33195/5d21f88af629d8080c5960eb.css">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/css/head/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/head/cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/js/head/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+</head>
+
+<!--<body style="background-image:url(https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg) ">-->
+
+<!--<body  style="background: url("https://cdn.jsdelivr.net/gh/kayleh/cdn/img/indexbg.jpg") center center / cover no-repeat rgb(102, 102, 102);-->
+<!--">-->
+
+<body>
+<!--<div class="site-wrapper">-->
+<!--<span class="mobile btn-mobile-menu">-->
+<!--        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>-->
+<!--        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>-->
+<!--    </span>-->
+<header id="panel" class="panel-cover">
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content">
+
+                <!--				头像-->
+                <div class="ih-item circle effect right_to_left">
+                    <a href="#" title="" class="blog-button">
+                        <div class="img"><img src="https://cdn.jsdelivr.net/gh/kayleh/cdn/img/2.jpg" alt="img"
+                                              class="js-avatar iUp profilepic up"></div>
+                        <div class="info iUp up">
+                            <div class="info-back">
+                                <h2>
+                                    Kayleh
+                                </h2>
+                                <!--                                    <p>-->
+                                <!--                                        每天进步多一点-->
+                                <!--                                    </p>-->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <h1 class="panel-cover__title panel-title iUp up" style="margin: 20px">
+                    <a href="#" title="Home">Kayleh</a>
+                </h1>
+                <!--                    <p class="panel-cover__subtitle panel-subtitle iUp up">Code Create Life</p>-->
+
+
+                <!--                <div class="navigation-wrapper iUp up">-->
+                <div>
+                    <div>
+                        <!--                        <nav class="cover-navigation cover-navigation&#45;&#45;primary">-->
+                        <ul class="navigation">
+                            <li class="navigation__item">
+                                <a href="https://shell.kayleh.top" class="blog-button">ENTER Terminal</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="https://kayleh.top" class="blog-button" target="_blank">ENTER Blog</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="https://kayleh.top/contract/" class="blog-button" target="_blank">Contact
+                                    me</a>
+                            </li>
+                            <!--  <li class="navigation__item">
+                                 <a href="https://ahzoo.cn/" class="blog-button" target="_blank">关于</a>
+                             </li> -->
+                        </ul>
+                        <!--                        </nav>-->
+                    </div>
+                    <br>
+                    <div class="iUp up">
+                        <nav class="cover-navigation navigation--social">
+                            <!--                            <ul class="navigation">-->
+                            <!--                                <li class="navigation__item">-->
+                            <!--                                    <a href="https://github.com/kayleh/" title="github" target="_blank">-->
+                            <!--                                        <i class="social iconfont icon-github"></i>-->
+                            <!--                                        <span class="label">github</span>-->
+                            <!--                                    </a>-->
+                            <!--                                </li>-->
+                            <!--                                &lt;!&ndash; <li class="navigation__item">-->
+                            <!--                                     <a href="https://ahzoo.cn" title="cnblogs" target="_blank">-->
+                            <!--                                         <i class='social iconfont icon-cnblogs'></i>-->
+                            <!--                                         <span class="label">cnblogs</span>-->
+                            <!--                                     </a>-->
+                            <!--                                 </li>-->
+                            <!--                                 <li class="navigation__item">-->
+                            <!--                                     <a href="https://www.zhihu.com/" title="zhihu" target="_blank">-->
+                            <!--                                         <i class='social iconfont icon-zhihu'></i>-->
+                            <!--                                         <span class="label">zhihu</span>-->
+                            <!--                                     </a>-->
+                            <!--                                 </li> &ndash;&gt;-->
+
+                            <!--                                <li class="navigation__item">-->
+                            <!--                                    <a href="mailto:kaylehisdied@gmail.com" title="email">-->
+                            <!--                                        <i class="social iconfont icon-email"></i>-->
+                            <!--                                        <span class="label">email</span>-->
+                            <!--                                    </a>-->
+                            <!--                                </li>-->
+                            <!--                            </ul>-->
+                            <div class="busuanzi">
+                                <!-- 不蒜子统计 -->
+                                <span>
+                                            <span id="busuanzi_value_site_pv"></span>
+                                    </span>
+                                <span class="post-meta-divider">|</span>
+                                <span>
+                                            <span id="busuanzi_value_site_uv"></span>
+                                    </span>
+                                <script async
+                                        src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <!--                <hr class="panel-cover__divider iUp up">-->
+                <!--                <p class="lead" style="margin: 10px;">Links:</p>-->
+                <p id="description" class="panel-cover__description iUp up">Links:<br>
+                    <!--                    -「<strong>Angel Beats!</strong>」-->
+                </p>
+
+                <!--社交图标-->
+                <div style="display: inline-flex;">
+                    <div>
+                        <a title="facebook" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://www.facebook.com/kayleh.yao.7">
+                            <!--                                <img alt="Brand" src="/images/img/facebook.png" width="30px" height="30px">-->
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a th:title="Twitter" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://twitter.com/y40jinqing">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <!--                                <img alt="Brand" src="/images/img/twitter.png" width="30px" height="30px">-->
+                        </a>
+                    </div>
+                    <div>
+                        <a th:title="GitHub" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://github.com/Kayleh">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="Google" class="navbar-brand" style="padding-top: 10px;"
+                           href="mailto:kaylehisdied@gmail.com">
+                            <i class="fa fa-google" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="stackoverflow" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://stackoverflow.com/users/14150803/kayleh">
+                            <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="linkedin" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://www.linkedin.com/in/jinqing-yao-97a750186/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="instagram" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://instagram.com/kayleh">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <div>
+                        <a th:title="weibo" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://weibo.com/5737136689/profile?rightmod=1&wvr=6&mod=personinfo">
+                            <i class="fa fa-weibo" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <!--                        <div>-->
+                    <!--                            <a th:title="zhihu" class="navbar-brand" style="padding-top: 10px;"-->
+                    <!--                               href="https://www.zhihu.com/people/ni-hui-gan-xie-wo-de">-->
+                    <!--                                <i class="fab fa-zhihu" aria-hidden="true"></i>-->
+                    <!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
+                    <!--                            </a>-->
+                    <!--                        </div>-->
+
+                    <div>
+                        <a th:title="youtube" class="navbar-brand" style="padding-top: 10px;"
+                           href="https://www.youtube.com/channel/UC60fbKqc9kjOom-o76OID_A?view_as=subscriber">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <!-- <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> -->
+                        </a>
+                    </div>
+
+                    <!--                        <div>-->
+                    <!--                            <a th:title="" class="navbar-brand" style="padding-top: 10px;"-->
+                    <!--                               href=" ">-->
+                    <!--                                <i class="fa fa- " aria-hidden="true"></i>-->
+                    <!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
+                    <!--                            </a>-->
+                    <!--                        </div>-->
+
+                    <!--                        <div>-->
+                    <!--                            <a th:title="" class="navbar-brand" style="padding-top: 10px;"-->
+                    <!--                               href=" ">-->
+                    <!--                                <i class="fa fa-" aria-hidden="true"></i>-->
+                    <!--                                &lt;!&ndash; <img alt="Brand" src="/images/img/github.png" width="30px" height="30px"> &ndash;&gt;-->
+                    <!--                            </a>-->
+                    <!--                        </div>-->
+                    <!--                        -->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+
+
+                    <!--                    <div class="mastfoot">-->
+                    <!--                        <div class="inner">-->
+                    <!--                            <div style="display: table-cell;">CopyRight ©2019 · Kayleh-->
+                    <!--                                &lt;!&ndash;                            · Terminal:aliyun Cloud · PROGRAMING:Spring Boot &ndash;&gt;-->
+                    <!--                                &lt;!&ndash;                                · 备案ICP000000号&ndash;&gt;-->
+                    <!--                            </div>-->
+                    <!--                            &lt;!&ndash;					<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>&ndash;&gt;-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="beian iUp up">
+        <a class="icp"
+           href="https://github.com/kayleh"
+           target="_blank">CopyRight ©2019 · Kayleh</a>
+        <!-- <a class="gwab" href="http://www.beian.gov.cn/portal/recordQuery" target="_blank">XXX</a>-->
+    </div>
+    <!--    </div>-->
+</header>
+<!--</div>-->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>-->
+<!--<script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>-->
+<!--<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<!--&lt;!&ndash; IE10 viewport hack for Surface/desktop Windows 8 bug &ndash;&gt;-->
+<!--<script src="/js/ie10-viewport-bug-workaround.js"></script>-->
+<script type="text/javascript" src="/js/fetch.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+
+</body>
+
+</html>
