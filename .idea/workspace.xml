@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b45e725a-8514-4a15-804d-1e721d3b12b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,10 @@
       <workItem from="1600692733450" duration="5442000" />
       <workItem from="1600698249740" duration="5185000" />
       <workItem from="1600707183054" duration="4238000" />
-      <workItem from="1600742224015" duration="2379000" />
+      <workItem from="1600742224015" duration="3530000" />
+      <workItem from="1600767635306" duration="780000" />
+      <workItem from="1600779328196" duration="1378000" />
+      <workItem from="1600838949317" duration="36000" />
     </task>
     <servers />
   </component>
@@ -75,6 +84,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="529" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600768022301">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="529" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1600768022301" />
     <state x="0" y="320" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600693154546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
