@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b45e725a-8514-4a15-804d-1e721d3b12b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_screen-reader.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +71,9 @@
       <workItem from="1600742224015" duration="3530000" />
       <workItem from="1600767635306" duration="780000" />
       <workItem from="1600779328196" duration="1378000" />
-      <workItem from="1600838949317" duration="36000" />
+      <workItem from="1600838949317" duration="237000" />
+      <workItem from="1600841655643" duration="608000" />
+      <workItem from="1601107871437" duration="719000" />
     </task>
     <servers />
   </component>
@@ -96,10 +93,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600693396631" />
-    <state x="320" y="9" key="SettingsEditor" timestamp="1600702764220">
+    <state x="320" y="9" key="SettingsEditor" timestamp="1601108095303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="320" y="9" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600702764220" />
+    <state x="320" y="9" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601108095303" />
     <state x="532" y="246" width="840" height="1035" key="run.anything.popup" timestamp="1600699311546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
