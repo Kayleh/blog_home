@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b45e725a-8514-4a15-804d-1e721d3b12b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/vno.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/vno.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1600779328196" duration="1378000" />
       <workItem from="1600838949317" duration="237000" />
       <workItem from="1600841655643" duration="608000" />
-      <workItem from="1601107871437" duration="719000" />
+      <workItem from="1601107871437" duration="2107000" />
+      <workItem from="1601428331534" duration="7000" />
     </task>
     <servers />
   </component>

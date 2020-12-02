@@ -8201,7 +8201,7 @@ nav {
     position: relative;
     border-color: #fff;
     color: #fff;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
 }
 
 .navigation__item a:hover {
